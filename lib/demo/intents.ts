@@ -1,0 +1,58 @@
+import type { PartnerIntent } from "@/types";
+
+export const demoIntents: PartnerIntent[] = [
+  {
+    id: "intent-alice-1",
+    user_id: "demo-alice",
+    hackathon_date: "2026-10-17",
+    mode: "in_person",
+    location_text: "Kochi",
+    is_active: true,
+    created_at: "2026-09-12T08:00:00.000Z",
+  },
+  {
+    id: "intent-bob-1",
+    user_id: "demo-bob",
+    hackathon_date: "2026-10-17",
+    mode: "in_person",
+    location_text: "Bengaluru",
+    is_active: true,
+    created_at: "2026-09-13T08:15:00.000Z",
+  },
+  {
+    id: "intent-charlie-1",
+    user_id: "demo-charlie",
+    hackathon_date: "2026-10-17",
+    mode: "either",
+    location_text: "Kochi",
+    is_active: true,
+    created_at: "2026-09-14T08:45:00.000Z",
+  },
+  {
+    id: "intent-diana-1",
+    user_id: "demo-diana",
+    hackathon_date: "2026-10-17",
+    mode: "online",
+    location_text: "Remote",
+    is_active: true,
+    created_at: "2026-09-11T09:00:00.000Z",
+  },
+  {
+    id: "intent-erin-1",
+    user_id: "demo-erin",
+    hackathon_date: "2026-10-17",
+    mode: "in_person",
+    location_text: "Bengaluru",
+    is_active: true,
+    created_at: "2026-09-09T11:20:00.000Z",
+  },
+  {
+    id: "intent-frank-1",
+    user_id: "demo-frank",
+    hackathon_date: "2026-10-17",
+    mode: "either",
+    location_text: "Remote",
+    is_active: true,
+    created_at: "2026-09-10T12:00:00.000Z",
+  },
+];
